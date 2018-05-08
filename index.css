@@ -38,61 +38,7 @@ p {
      padding-left: 30px;
      padding-right: 30px;
      padding-bottom: 30px;
- }
-
- .navbar-brand {
-    color: white;
-    background-color: rgb(12, 150, 160);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
- 
-
-/*------------- Header --------------*/
-#nav-title {
-    background-color: #0ff7ee;
-    color: white;
-    margin-left: 50px;
-}
-.main-viz {
-    padding-bottom: 20px;
-    margin: auto;
-}
-.main-content {
-    padding: 30px;
-    padding-top: 0px;
-}
-.navbar-toggle {
-    background-color: #0ff7ee; 
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-/*drop down*/
 
 
 /*--------------- Size Control ----------------*/
-@media only screen and (max-width: 992px) {
-    .side-bar-img {
-        width: 23%;
-    }
-    .comparison {
-        border-bottom: 1px solid #0dd8ee;
-        padding-bottom: 20px;
-    }
-    #bottom-comp {
-        border-bottom-width: 0px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #landing-img {
-        max-width: 50%;
-    }
-    .side-bar-img {
-        float: left;
-        max-height: 23%;
-        max-width: 23%;
-        margin: 2px;
-    }
-}
+@media
