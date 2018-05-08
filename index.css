@@ -3,21 +3,21 @@ body {
 }
 
 h1{
-    color: rgb(12, 173, 167);
+    color: rgb(12, 150, 160);
      background-color: white;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: bold;
 }
 
 h2{
-    color: rgb(12, 173, 167);
+    color: rgb(12, 150, 160);
      background-color: white;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: bold;
 }
 
 h3{
-        color: rgb(12, 173, 167);
+        color: rgb(12, 150, 160);
          background-color: white;
          font-family: Georgia, 'Times New Roman', Times, serif;
          font-weight: bold;
@@ -42,7 +42,7 @@ p {
 
  .navbar-brand {
     color: white;
-    background-color: rgb(12, 173, 167);
+    background-color: rgb(12, 150, 160);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@ p {
 
 /*------------- Header --------------*/
 #nav-title {
-    background-color: #0dd8ee;
+    background-color: #0ff7ee;
     color: white;
     margin-left: 50px;
 }
@@ -63,7 +63,7 @@ p {
     padding-top: 0px;
 }
 .navbar-toggle {
-    background-color: #0dd8ee; 
+    background-color: #0ff7ee; 
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
