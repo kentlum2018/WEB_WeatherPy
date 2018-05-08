@@ -9,37 +9,64 @@
     <link rel="stylesheet" href="index.css">
   </head>
 
-<body>
-  <section>
-    <h1>WeatherPy</h1>
-    <figure>
-    <a target="_blank" href="cloudymap.png">
-    <img src="cloudyymap.png" alt="Cloudy by Latitude">
-    </a>
-    <figcaption<em>Cloudy Map</em></figcaption>
-    </figure>
-    <hr>
-    <article>
-    <a target="_blank" href="humiditymap.png">
-    <img src="humiditymap.png" alt="Humidity by Latitude">
-    </a>
-    <p><em>Humidity Map</em></p>
-    </article>
-    <hr>
-    <article>
-      <a href="temperaturemap.png">
-      <img target="_blank" src="temperaturemap.png" alt="Temperature by Latitude">
-      </a>
-      <p><em>Temperature Map</em></p>
-    </article>
-    <hr>
-    <article>
-      <a target="_blank" href="windmap.png">
-      <img src="windmap.png" alt="Wind by Latitude">
-      </a>
-      <p><em>Wind Map</em></p>
-    </article>
-  </section>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
+                      <h1>
+                        Summary: Latitude vs. X
+                      </h1>
+                      <div class="main-content">
+                          <img src="assets/images/temperaturemap.png" alt="Temperature by Latitude" id="landing-img" class="img-responsive">
+                          <p>
+                                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
+                                we first pulled data from the OpenWeather API to assemble a dataset on over 500 cities.<br> 
+                                <br>
+                                <br>After assembling the dataset, we used MAtplotlib to plot various aspects of the weather vs. latitude. 
+                                Factors we looked at included: Temperature, Cloudiness, Wind Speed, and Humidity. 
+                                This site provides the source data and visualizations created as part of the analysis, 
+                                as well as explanations and descriptions of any trends and correlations witnessed.<br>
+                                <br>
+                                
+                          </p>    
+                      </div>
+                  </section>
+          </div>
+            <div class="col-md-4">
+               <section class="clearfix">
+            <h1>WeatherPy</h1>
+            <figure>
+            <a target="_blank" href="cloudymap.png">
+            <img src="cloudyymap.png" alt="Cloudy by Latitude">
+            </a>
+            <figcaption<em>Cloudy Map</em></figcaption>
+            </figure>
+            <hr>
+            <article>
+            <a target="_blank" href="humiditymap.png">
+            <img src="humiditymap.png" alt="Humidity by Latitude">
+            </a>
+            <p><em>Humidity Map</em></p>
+            </article>
+            <hr>
+            <article>
+              <a href="temperaturemap.png">
+              <img target="_blank" src="temperaturemap.png" alt="Temperature by Latitude">
+              </a>
+              <p><em>Temperature Map</em></p>
+            </article>
+            <hr>
+            <article>
+              <a target="_blank" href="windmap.png">
+              <img src="windmap.png" alt="Wind by Latitude">
+              </a>
+              <p><em>Wind Map</em></p>
+            </article>
+          </section>
+      </div>
+    </div>
+  </div> 
 </body>
 
 </html>
