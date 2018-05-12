@@ -1,44 +1,65 @@
+
+.navbar-brand {
+    background-color: rgba(94, 216, 253, 0.986);
+    font-size: 28px;
+    margin-left: 50px;
+    font-family: impact;
+}
+
+.home-image {
+    height: auto;
+    max-width: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+.home-image-2 {
+    /* height: 200px; */
+    height: auto;
+    max-width: 50%;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.comparison-image-2 {
+    /* height: 200px; */
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.first-panel {
+    max-width: 1200px;
+    float: right;
+}
+
+.second-panel {
+    max-width: 555px;
+    float: left;
+}
+
+.comparison-panel {
+    max-width: 1500px;
+    margin: auto;
+}
+
 body {
-    background-color: lightgray;
+    background-color: rgb(161, 156, 156);
 }
 
-h1{
-    color: rgb(12, 150, 160);
-     background-color: white;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-weight: bold;
-}
-
-h2{
-    color: rgb(12, 150, 160);
-     background-color: white;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-weight: bold;
-}
-
-h3{
-        color: rgb(12, 150, 160);
-         background-color: white;
-         font-family: Georgia, 'Times New Roman', Times, serif;
-         font-weight: bold;
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: white;
     }
+}
 
-
-p {
-    color: slategray;
-    font-family: sans-serif;
-    font-size: 12;
+.table {
+    margin: auto;
     background-color: white;
-    line-height: 2;
- }
+}
 
- .container{
-     background-color: white;
-     padding-top: 30px;
-     padding-left: 30px;
-     padding-right: 30px;
-     padding-bottom: 30px;
-
-
-/*--------------- Size Control ----------------*/
-@media
+h2 {
+    text-align: center;
+    color: rgba(94, 216, 253, 0.986);
+}
